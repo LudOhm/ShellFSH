@@ -1,0 +1,3 @@
+$ for N in numbers { false ; true ; ./ret $N }
+$ for N in numbers { true ; ./ret $N ; false }
+$ exit 0

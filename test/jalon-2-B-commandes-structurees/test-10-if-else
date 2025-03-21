@@ -1,0 +1,3 @@
+$ if [ -d NOTADIR ] { echo bad } else { echo good }
+$ if [ ! -d NOTADIR ] { echo good } else { echo bad }
+$ exit 0

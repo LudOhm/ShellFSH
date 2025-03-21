@@ -1,0 +1,3 @@
+$ if test -d NOTADIR { echo bad ; ./ret 10 } else { echo good ; ./ret 11 }
+$ if [ ! -d NOTADIR ] { echo good ; ./ret 12 } else { echo bad ; ret 13 }
+$ exit 0

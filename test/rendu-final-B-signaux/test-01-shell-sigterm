@@ -1,0 +1,4 @@
+$ true
+$+SIGTERM
+$ false
+$ exit 0

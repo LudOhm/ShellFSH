@@ -1,0 +1,4 @@
+$ ./trunc res
+$ echo a >> res ; rev < fichier-1 >> res ; echo i >> res
+$ cat res
+$ exit 0

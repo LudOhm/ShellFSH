@@ -1,0 +1,2 @@
+$ for f in dir-30 -p 3 { ./limit-parallel 3 } ; echo
+$ exit 0

@@ -1,0 +1,5 @@
+#IGNORE STDERR
+$ for F in NONEXISTENT { echo bad }
+$ for F in NOTADIR { echo bad }
+$ true
+$ exit 0

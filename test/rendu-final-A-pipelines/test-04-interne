@@ -1,0 +1,2 @@
+$ pwd | cat | tail -c 10
+$ pwd | pwd | cat | tail -c 10

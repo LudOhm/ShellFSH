@@ -1,0 +1,2 @@
+$ cat texte | head -n 15 | tail -n 14 | head -n 13 | tail -n 10
+$ exit 0

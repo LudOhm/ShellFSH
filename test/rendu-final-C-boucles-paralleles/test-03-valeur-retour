@@ -1,0 +1,2 @@
+$ for f in dir-30 -p 5 { ./ret $f }
+$ exit 0

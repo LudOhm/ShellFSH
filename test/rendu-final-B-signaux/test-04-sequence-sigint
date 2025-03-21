@@ -1,0 +1,4 @@
+$ echo a ; ./raise TERM
+$ echo a ; ./raise TERM ; echo b
+$ echo a ; ./raise INT ; echo b
+$ exit 0

@@ -1,0 +1,8 @@
+#ENABLE VALGRIND
+$ ./split.sh 34 < texte 2> dossier/35-36 | ./split.sh 32 2> dossier/33-34 | ./split.sh 27 2> dossier/28-32 | tail 2> dossier/vide | ./split.sh 8 2> dossier/26-27 > dossier/18-25
+$ ./ls.sh dossier
+$ ls dossier
+$ ls
+$ cat dossier/18-25 lf dossier/26-27 lf dossier/28-32 lf  dossier/33-34 lf dossier/35-36 dossier/vide
+$ rm -rf dossier/
+$ mkdir -p dossier

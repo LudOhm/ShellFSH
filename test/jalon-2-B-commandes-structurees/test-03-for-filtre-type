@@ -1,0 +1,4 @@
+$ ./trunc R
+$ for D in dir-2 -t d { ./append R $D ; for F in $D -t f { ./append R $F } }
+$ sort R
+$ exit 0

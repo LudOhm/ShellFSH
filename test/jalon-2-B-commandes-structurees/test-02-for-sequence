@@ -1,0 +1,4 @@
+$ ./trunc R
+$ for D in dir-1 { ./append R $D ; for F in $D { ./append-list R $F ; dd if=$F of=R conv=notrunc status=none oflag=append } }
+$ sort R
+$ exit 0

@@ -1,0 +1,5 @@
+$ true
+$ cat
+>+SIGINT
+$ false
+$ exit 0

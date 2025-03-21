@@ -1,0 +1,5 @@
+#ENABLE VALGRIND
+$ for F in dir-4 -e c { ./append /dev/null $F.h }
+$ for F in dir-5 -r -t f { ./append /dev/null $F }
+$ for D in dir-2 { if [ -d $D ] { for F in $D { if [ -f $F ] { ./append /dev/null $F } } } else { ./append /dev/null $D } }
+$ exit 0

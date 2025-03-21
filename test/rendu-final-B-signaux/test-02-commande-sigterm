@@ -1,0 +1,5 @@
+$ true
+$ cat
+>+SIGTERM
+$ false
+$ exit 0

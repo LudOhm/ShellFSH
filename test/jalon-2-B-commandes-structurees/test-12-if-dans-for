@@ -1,0 +1,4 @@
+$ ./trunc R
+$ for D in dir-2 { if [ -d $D ] { for F in $D { if [ -f $F ] { ./append R $F } } } else { ./append R $D } }
+$ sort R
+$ exit 0

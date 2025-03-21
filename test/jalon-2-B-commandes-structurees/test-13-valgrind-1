@@ -1,0 +1,5 @@
+#ENABLE VALGRIND
+$ for D in dir-1 { ./append /dev/null $D ; for F in $D { ./append-list /dev/null $F ; dd if=$F of=/dev/null conv=notrunc status=none oflag=append } }
+$ for D in dir-2 -t d { ./append /dev/null $D ; for F in $D -t f { ./append /dev/null $F } }
+$ for F in dir-3 -A { ./append /dev/null $F }
+$ exit 0

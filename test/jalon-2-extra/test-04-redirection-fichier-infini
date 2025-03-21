@@ -1,0 +1,5 @@
+$ ./trunc res
+$ head -c 123 < /dev/zero >| res
+$ wc -c res
+$ exit 0
+

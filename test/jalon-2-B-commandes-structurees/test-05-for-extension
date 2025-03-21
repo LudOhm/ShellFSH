@@ -1,0 +1,5 @@
+$ ./trunc R
+$ for F in dir-4 -e txt { ./append R $F }
+$ for F in dir-4 -e c { ./append R $F.h }
+$ sort R
+$ exit 0

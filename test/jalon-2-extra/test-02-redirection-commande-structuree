@@ -1,0 +1,5 @@
+$ ./trunc res
+$ for f in dir-1 { if grep i $f >> res { rev $f >> res } }
+$ sed -f commande-sed -i res
+$ sort res
+$ exit 0
