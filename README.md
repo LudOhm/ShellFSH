@@ -2,13 +2,13 @@
 
 ## Projet : faire un Shell avec des boucles for :
 
-**pour compiler le projet et lancer le shell : **
+**pour compiler le projet et lancer le shell :**
 
 ``` 
 make run
 ```
 
-**Pour lancer les tests du cours : **
+**Pour lancer les tests du cours :**
 
 ```
 make test
